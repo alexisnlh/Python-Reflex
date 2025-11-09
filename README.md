@@ -4,19 +4,23 @@ Aplicación web interactiva que implementa un chat con OpenAI utilizando Python 
 
 > **Nota:** Proyecto basado en el [tutorial de MoureDev](https://youtu.be/2u7JlBEavx0?si=blpgMew16INH4Jug) sobre Reflex.
 
+<a id="tabla-de-contenidos"></a>
 ## 📋 Tabla de Contenidos
 
-- [Características](#-características)
-- [Tecnologías](#-tecnologías)
-- [Requisitos Previos](#-requisitos-previos)
-- [Instalación](#-instalación)
-- [Configuración](#-configuración)
-- [Uso](#-uso)
-- [Estructura del Proyecto](#-estructura-del-proyecto)
-- [Capturas de Pantalla](#-capturas-de-pantalla)
-- [Contribuir](#-contribuir)
-- [Licencia](#-licencia)
+- [Características](#características)
+- [Tecnologías](#tecnologías)
+- [Requisitos Previos](#requisitos-previos)
+- [Instalación](#instalación)
+- [Configuración](#configuración)
+- [Uso](#uso)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Notas Adicionales](#notas-adicionales)
+- [Licencia](#licencia)
+- [Autor](#autor)
+- [Agradecimientos](#agradecimientos)
 
+
+<a id="características"></a>
 ## ✨ Características
 
 - 💬 Chat interactivo con OpenAI GPT
@@ -26,6 +30,7 @@ Aplicación web interactiva que implementa un chat con OpenAI utilizando Python 
 - ⚡ Compilación automática a JavaScript mediante Reflex
 - 🔒 Variables de entorno para gestión segura de API keys
 
+<a id="tecnologías"></a>
 ## 🛠 Tecnologías
 
 - **[Python 3.12+](https://www.python.org/)** - Lenguaje de programación principal
@@ -33,6 +38,7 @@ Aplicación web interactiva que implementa un chat con OpenAI utilizando Python 
 - **[OpenAI API](https://platform.openai.com/)** - Integración con modelos de lenguaje GPT
 - **JavaScript** - Generado automáticamente por Reflex
 
+<a id="requisitos-previos"></a>
 ## 📦 Requisitos Previos
 
 Antes de comenzar, asegúrate de tener instalado:
@@ -42,6 +48,9 @@ Antes de comenzar, asegúrate de tener instalado:
 - Una cuenta en [OpenAI](https://platform.openai.com/) con acceso a la API
 - Git (para clonar el repositorio)
 
+**[⬆ back to top](#tabla-de-contenidos)**
+
+<a id="instalación"></a>
 ## 🚀 Instalación
 
 ### 1. Clonar el repositorio
@@ -75,6 +84,9 @@ Si no existe el archivo `requirements.txt`, instala las dependencias manualmente
 pip install reflex openai python-dotenv
 ```
 
+**[⬆ back to top](#tabla-de-contenidos)**
+
+<a id="configuración"></a>
 ## ⚙️ Configuración
 
 ### 1. Obtener API Key de OpenAI
@@ -109,6 +121,9 @@ Python-Reflex/
 └── requirements.txt
 ```
 
+**[⬆ back to top](#tabla-de-contenidos)**
+
+<a id="uso"></a>
 ## 🎯 Uso
 
 ### Iniciar la aplicación
@@ -139,6 +154,9 @@ reflex clear
 reflex export
 ```
 
+**[⬆ back to top](#tabla-de-contenidos)**
+
+<a id="estructura-del-proyecto"></a>
 ## 📁 Estructura del Proyecto
 
 ```
@@ -171,6 +189,9 @@ reflex export
 - **`python_reflex/`**: Contiene toda la lógica de la aplicación en Python.
 - **`.env`**: Archivo crítico para almacenar la API key de OpenAI de forma segura.
 
+**[⬆ back to top](#tabla-de-contenidos)**
+
+<a id="notas-adicionales"></a>
 ## 📝 Notas Adicionales
 
 ### Seguridad
@@ -199,16 +220,21 @@ pip install reflex
 - Verifica que no haya otro proceso usando el puerto 3000
 - Intenta acceder manualmente a `http://localhost:3000`
 
+
+<a id="licencia"></a>
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
+
+<a id="autor"></a>
 ## 👨‍💻 Autor
 
 **Alexis NLH**
 
 - GitHub: [@alexisnlh](https://github.com/alexisnlh)
 
+<a id="agradecimientos"></a>
 ## 🙏 Agradecimientos
 
 - [MoureDev](https://github.com/mouredev) por el tutorial original
@@ -218,3 +244,5 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 ---
 
 ⭐ Si este proyecto te fue útil, considera darle una estrella en GitHub
+
+**[⬆ back to top](#tabla-de-contenidos)**
